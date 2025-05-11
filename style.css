@@ -64,7 +64,7 @@ a, a:visited{
     flex:1;
 
 }
-.subtext{
+.subtext, .subtext1{
     color: rgb(214, 214, 214);
     font-weight: 300;
     margin: 10px 0;
@@ -77,6 +77,37 @@ button{
     border-radius: 7px;
     color: white;
 }
+
+.info-title{
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+.info{
+    
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    
+
+}
+.subtext1{
+    color: #1F2937;
+    text-align: center;
+}
+.info-image{
+    flex:1;
+    padding-top: 100%;
+    height:auto;
+    border-width: 4px;
+    border-color:#3882F6;
+    border-style:solid;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+
 
 
 .header, .hero, .info, .quote, .call-to-action, .footer
