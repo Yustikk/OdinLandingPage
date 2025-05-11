@@ -134,14 +134,14 @@ button{
 
 .call-to-action{
     background-color: white;
-    padding: 50px;
+    padding: 80px;
     color: white;
 }
 .pop-up{
     background-color: #3882F6;
     display: flex;
     justify-content: space-between;
-    padding:  24px 10%;
+    padding:  50px 10%;
     border-radius: 7px;
 
 }
@@ -161,7 +161,16 @@ h6{
     font-size: 14px;
 }
 
-
+.footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    
+}
+#copyright{
+    font-weight: 300;
+}
 
 
 .header, .hero, .info, .quote, .call-to-action, .footer
